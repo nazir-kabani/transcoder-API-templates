@@ -579,7 +579,7 @@
         }
       ],
       "pubsubDestination": {
-        "topic": "projects/<projectId>/topics/transcoding-job-notification"
+        "topic": "projects/<projectId>/topics/transcoding-job-notification" -- Please add your pubsub topic here
       }
   }
 }
