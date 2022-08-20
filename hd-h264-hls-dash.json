@@ -1,0 +1,481 @@
+{
+  "config": {  
+    "elementaryStreams": [
+      {
+        "key": "video-stream0",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 96,
+            "widthPixels": 170,
+            "bitrateBps": 130000,
+            "frameRate": 12.5,
+            "gopDuration": "4.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "vbr",
+            "bFrameCount": 3,
+            "profile": "high",
+            "enableTwoPass": true,
+            "preset": "slow"
+          }
+        }
+      },
+      {
+        "key": "video-stream1",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 144,
+            "widthPixels": 256,
+            "bitrateBps": 216000,
+            "frameRate": 25,
+            "gopDuration": "4.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "vbr",
+            "bFrameCount": 3,
+            "profile": "high",
+            "enableTwoPass": true,
+            "preset": "slow"
+          }
+        }
+      },
+      {
+        "key": "video-stream2",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 240,
+            "widthPixels": 428,
+            "bitrateBps": 360000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream3",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 360,
+            "widthPixels": 640,
+            "bitrateBps": 603000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream4",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 480,
+            "widthPixels": 854,
+            "bitrateBps": 1080000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "high",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream5",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 576,
+            "widthPixels": 1024,
+            "bitrateBps": 1323000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "high",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream6",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 720,
+            "widthPixels": 1280,
+            "bitrateBps": 1800000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "high",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream7",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 720,
+            "widthPixels": 1280,
+            "bitrateBps": 2430000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "high",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream8",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 1080,
+            "widthPixels": 1920,
+            "bitrateBps": 3870000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "high",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream9",
+        "videoStream": {
+          "h264": {
+            "heightPixels": 1080,
+            "widthPixels": 1920,
+            "bitrateBps": 5850000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "high",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "audio-stream0",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 32000
+        }
+      },
+      {
+        "key": "audio-stream1",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 64000
+        }
+      },
+      {
+        "key": "audio-stream2",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 96000
+        }
+      },
+      {
+        "key": "audio-stream3",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 128000
+        }
+      },
+      {
+        "key": "audio-stream4",
+        "audioStream": {
+          "codec": "aac-he",
+          "bitrateBps": 128000
+        }
+      },
+      {
+        "key": "audio-stream5",
+        "audioStream": {
+          "codec": "aac-he-v2",
+          "bitrateBps": 128000
+        }
+      }
+    ],
+    "muxStreams": [
+      {
+        "key": "96p-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream0",
+          "audio-stream0"
+        ]
+      },
+      {
+        "key": "144p-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream1",
+          "audio-stream0"
+        ]
+      },
+      {
+        "key": "240p-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream2",
+          "audio-stream1"
+        ]
+      },
+      {
+        "key": "360p-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream3",
+          "audio-stream1"
+        ]
+      },
+      {
+        "key": "480p-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream4",
+          "audio-stream2"
+        ]
+      },
+      {
+        "key": "576p-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream5",
+          "audio-stream3"
+        ]
+      },
+      {
+        "key": "720lowp-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream6",
+          "audio-stream3"
+        ]
+      },
+      {
+        "key": "720highpp-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream7",
+          "audio-stream4"
+        ]
+      },
+      {
+        "key": "1080lowp-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream8",
+          "audio-stream4"
+        ]
+      },
+      {
+        "key": "1080highp-ts",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream9",
+          "audio-stream5"
+        ]
+      },
+      {
+        "key": "96p-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream0"
+        ]
+      },
+      {
+        "key": "144p-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream1"
+        ]
+      },
+      {
+        "key": "240p-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream2"
+        ]
+      },
+      {
+        "key": "360p-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream3"
+        ]
+      },
+      {
+        "key": "480p-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream4"
+        ]
+      },
+      {
+        "key": "576p-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream5"
+        ]
+      },
+      {
+        "key": "720lowp-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream6"
+        ]
+      },
+      {
+        "key": "720highpp-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream7"
+        ]
+      },
+      {
+        "key": "1080lowp-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream8"
+        ]
+      },
+      {
+        "key": "1080highp-fmp4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream9"
+        ]
+      },
+      {
+        "key": "aac-32000",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream0"
+        ]
+      },
+      {
+        "key": "aac-64000",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream1"
+        ]
+      },
+      {
+        "key": "aac-96000",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream2"
+        ]
+      },
+      {
+        "key": "aac-128000",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream3"
+        ]
+      },
+      {
+        "key": "aac-he-128000",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream4"
+        ]
+      },
+      {
+        "key": "aac-he-v2-128000",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream5"
+        ]
+      }
+    ],
+    "manifests": [
+        {
+          "fileName": "manifest.m3u8",
+          "type": "HLS",
+          "muxStreams": [
+            "1080highp-ts",
+            "1080lowp-ts",
+            "720highpp-ts",
+            "720lowp-ts",
+            "576p-ts",
+            "480p-ts",
+            "360p-ts",
+            "240p-ts",
+            "144p-ts",
+            "96p-ts"
+          ]
+        },
+        {
+          "fileName": "manifest.mpd",
+          "type": "DASH",
+          "muxStreams": [
+            "1080highp-fmp4",
+            "1080lowp-fmp4",
+            "720highpp-fmp4",
+            "720lowp-fmp4",
+            "576p-fmp4",
+            "480p-fmp4",
+            "360p-fmp4",
+            "240p-fmp4",
+            "144p-fmp4",
+            "96p-fmp4",
+            "aac-he-v2-128000",
+            "aac-he-128000",
+            "aac-128000",
+            "aac-96000",
+            "aac-64000",
+            "aac-32000"
+          ]
+        }
+      ],
+      "pubsubDestination": {
+        "topic": "projects/<projectId>/topics/transcoding-job-notification"
+      }
+  }
+}

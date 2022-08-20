@@ -1,0 +1,585 @@
+{
+  "config": { 
+    "elementaryStreams": [
+      {
+        "key": "video-stream0",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 360,
+            "widthPixels": 640,
+            "bitrateBps": 670000,
+            "frameRate": 25,
+            "gopDuration": "4.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "vbr",
+            "bFrameCount": 3,
+            "profile": "main",
+            "enableTwoPass": true,
+            "preset": "slow"
+          }
+        }
+      },
+      {
+        "key": "video-stream1",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 480,
+            "widthPixels": 854,
+            "bitrateBps": 1200000,
+            "frameRate": 25,
+            "gopDuration": "4.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "vbr",
+            "bFrameCount": 3,
+            "profile": "main",
+            "enableTwoPass": true,
+            "preset": "slow"
+          }
+        }
+      },
+      {
+        "key": "video-stream2",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 576,
+            "widthPixels": 1024,
+            "bitrateBps": 1470000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream3",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 720,
+            "widthPixels": 1280,
+            "bitrateBps": 2000000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream4",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 720,
+            "widthPixels": 1280,
+            "bitrateBps": 2700000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream5",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 1080,
+            "widthPixels": 1920,
+            "bitrateBps": 4300000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream6",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 1080,
+            "widthPixels": 1920,
+            "bitrateBps": 6500000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream7",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 1440,
+            "widthPixels": 2560,
+            "bitrateBps": 8000000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream8",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 2160,
+            "widthPixels": 3840,
+            "bitrateBps": 11500000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "video-stream9",
+        "videoStream": {
+          "h265": {
+            "heightPixels": 2160,
+            "widthPixels": 3840,
+            "bitrateBps": 14000000,
+            "frameRate": 25,
+            "gopDuration": "2.0s",
+            "pixelFormat": "yuv420p",
+            "rateControlMode": "crf",
+            "crfLevel": 10,
+            "bFrameCount": 3,
+            "aqStrength": 1,
+            "profile": "main",
+            "tune": "film",
+            "preset": "medium"
+          }
+        }
+      },
+      {
+        "key": "audio-stream0",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 32000
+        }
+      },
+      {
+        "key": "audio-stream1",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 64000
+        }
+      },
+      {
+        "key": "audio-stream2",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 96000
+        }
+      },
+      {
+        "key": "audio-stream3",
+        "audioStream": {
+          "codec": "aac",
+          "bitrateBps": 128000
+        }
+      },
+      {
+        "key": "audio-stream4",
+        "audioStream": {
+          "codec": "aac-he",
+          "bitrateBps": 128000
+        }
+      },
+      {
+        "key": "audio-stream5",
+        "audioStream": {
+          "codec": "aac-he-v2",
+          "bitrateBps": 128000
+        }
+      }
+    ],
+    "muxStreams": [
+      {
+        "key": "1",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream0",
+          "audio-stream0"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "2",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream1",
+          "audio-stream0"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "3",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream2",
+          "audio-stream1"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "4",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream3",
+          "audio-stream1"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "5",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream4",
+          "audio-stream2"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "6",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream5",
+          "audio-stream3"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "7",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream6",
+          "audio-stream3"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "8",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream7",
+          "audio-stream4"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "9",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream8",
+          "audio-stream4"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "10",
+        "container": "ts",
+        "elementaryStreams": [
+          "video-stream9",
+          "audio-stream5"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-1",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream0"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-2",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream1"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-3",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream2"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream3"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-5",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream4"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-6",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream5"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-7",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream6"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-8",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream7"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-9",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream8"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "video-10",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "video-stream9"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "audio-1",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream0"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "audio-2",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream1"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "audio-3",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream2"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "audio-4",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream3"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "audio-5",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream4"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      },
+      {
+        "key": "audio-6",
+        "container": "fmp4",
+        "elementaryStreams": [
+          "audio-stream5"
+        ],
+        "segmentSettings": {
+            "segmentDuration": "4.0s",
+            "individualSegments": true
+        }
+      }
+    ],
+    "manifests": [
+        {
+          "fileName": "manifest.m3u8",
+          "type": "HLS",
+          "muxStreams": [
+            "10",
+            "9",
+            "8",
+            "7",
+            "6",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "fileName": "manifest.mpd",
+          "type": "DASH",
+          "muxStreams": [
+            "video-10",
+            "video-9",
+            "video-8",
+            "video-7",
+            "video-6",
+            "video-5",
+            "video-4",
+            "video-3",
+            "video-2",
+            "video-1",
+            "audio-6",
+            "audio-5",
+            "audio-4",
+            "audio-3",
+            "audio-2",
+            "audio-1"
+          ]
+        }
+      ],
+      "pubsubDestination": {
+        "topic": "projects/<projectId>/topics/transcoding-job-notification"
+      }
+  }
+}
